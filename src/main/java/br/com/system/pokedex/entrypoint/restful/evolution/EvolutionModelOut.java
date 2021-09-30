@@ -1,14 +1,12 @@
-package br.com.system.pokedex.core.evolution;
+package br.com.system.pokedex.entrypoint.restful.evolution;
 
 import com.sun.istack.internal.NotNull;
 import lombok.Builder;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor(staticName = "from")
-@Builder
 @Data
-public class EvolutionEntity {
+@Builder
+public class EvolutionModelOut {
 
     @NotNull
     private Integer id;
