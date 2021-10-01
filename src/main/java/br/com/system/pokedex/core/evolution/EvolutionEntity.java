@@ -1,19 +1,18 @@
 package br.com.system.pokedex.core.evolution;
 
-import com.sun.istack.internal.NotNull;
-import lombok.Builder;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+//import com.sun.istack.internal.NotNull;
+import lombok.*;
 
-@RequiredArgsConstructor(staticName = "from")
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @Data
 public class EvolutionEntity {
 
-    @NotNull
+    //@NotNull
     private Integer id;
 
-    @NotNull
+    //@NotNull
     private String name;
 
 }

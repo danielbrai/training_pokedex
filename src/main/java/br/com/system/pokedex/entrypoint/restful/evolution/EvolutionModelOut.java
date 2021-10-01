@@ -1,6 +1,6 @@
 package br.com.system.pokedex.entrypoint.restful.evolution;
 
-import com.sun.istack.internal.NotNull;
+//import com.sun.istack.internal.NotNull;
 import lombok.Builder;
 import lombok.Data;
 
@@ -8,10 +8,10 @@ import lombok.Data;
 @Builder
 public class EvolutionModelOut {
 
-    @NotNull
+    //@NotNull
     private Integer id;
 
-    @NotNull
+    //@NotNull
     private String name;
 
 }
